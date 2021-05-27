@@ -1,0 +1,76 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 96vh;
+    background-image: url("./images/Online\ world-pana.svg");
+    background-size: cover;
+    background-position: center;
+}
+img{
+    position: absolute;
+    width: 200px;
+    left: 0;
+    top: -1rem;
+}
+.form-container{
+    position: relative;
+    background-color: white;
+    box-shadow: 2px 2px 12px rgba(0,0,0,0.6);
+    padding: 0rem 1rem 0.4rem 1rem;
+    border-radius: 8px;
+}
+.signup{
+    line-height: 0.4rem;
+}
+.signup h3{
+    font-size: 37px;
+    font-family: sans-serif;
+}
+.signup p{
+    opacity: 0.8;
+    font-family: sans-serif;
+}
+.fa-times{
+    float: right;
+    margin-top: -5rem;
+    margin-right: 1rem;
+    font-size: 30px;
+    color: black;
+}
+.column{
+    display: flex;
+    flex-direction: column;
+}
+.info{
+    display: flex;
+    flex-direction: column;
+}
+input{
+    margin: 0.3rem;
+    padding: 0.6rem 0.2rem;
+    border: 0.1px solid rgba(0, 0, 0,0.4);
+    border-radius: 6px;
+    text-align: left;
+}
+select{
+    margin: 0.3rem;
+    padding: 0.6rem 0rem;
+    border: 0.1px solid rgba(0, 0, 0,0.4);
+    border-radius: 6px;
+    outline: none;
+    cursor: pointer;
+}
+.btn{
+    background-color: rgb(40, 161, 29);
+    margin-left: 1rem;
+    border: none;
+    outline: none;
+    padding: 0.7rem 3.5rem;
+    border-radius: 8px;
+    color: white;
+    font-weight: 900;
+}

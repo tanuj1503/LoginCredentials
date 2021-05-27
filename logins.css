@@ -1,0 +1,175 @@
+body{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    box-sizing: border-box;
+    background-color: #368A7B;
+    font-family: sans-serif;
+}
+.container1{
+    width: 100%;
+    height: 100%;
+    left: 2rem;
+}
+.container2{
+    position: absolute;
+    right: 0;
+    width: 50%;
+    height: 100%;
+    background-color: white;
+}
+form{
+    display: flex;
+    flex-direction: column;
+}
+input{
+   width: 200px;
+   margin: 0.6rem;
+   padding: 0.8rem 1rem;
+   border: 0.1px solid rgba(0, 0, 0,0.4);
+   border-radius: 6px;
+   text-align: left;
+}
+.login-container{
+    position: absolute;
+    top: 20%;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: white;
+    padding: 1rem;
+    border-radius: 12px;
+    box-shadow: 1px 1px 8px rgba(0, 0, 0,0.4);
+}
+.btn{
+    width: 240px;
+    border: none;
+    outline: none;
+    color: white;
+    font-weight: 800;
+    font-family: sans-serif;
+    text-align: center;
+    background-color: #368A7B;
+}
+h3{
+    background-color: rgb(40, 161, 29);
+    padding: 0.7rem 2rem;
+    border-radius: 5px;
+    text-align: center;
+}
+h3 a{
+    font-family: sans-serif;
+    text-decoration: none;
+    color: white;
+}
+.about{
+    position: absolute;
+    top:20%;
+    left:4%;
+}
+.about h1{
+    width: 600px;
+    font-size: 5rem;
+    color: white;
+    margin-top: 4rem;
+}
+.about .para{
+    width: 450px;
+    font-size: 1.2rem;
+    margin-top: -2.8rem;
+}
+.about a{
+    text-decoration: none;
+    color: white;
+}
+.readmore{
+    width: 100px;
+    padding: 0.6rem;
+    border-radius: 8px;
+    color: white;
+    font-size: 1rem;
+    background-color: #368A7B;
+    box-shadow: 1px 1px 8px rgba(0, 0, 0,0.4);
+}
+.span{
+    font-size: 4rem;
+}
+span{
+    color: white;
+}
+p{
+    font-weight: 700;
+    font-size: 22px;
+    text-decoration: none;
+    color: black;
+}
+
+@media screen and (max-width:360px){
+    body{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        display: flex;
+        flex-direction: column;
+        background-color: white;
+    }
+    .container1{
+        position: absolute;
+        left: 0;
+        width: 100%;
+        height: 50%;
+        background-color: #368A7B;
+        border-radius: 24% 0 24% 0;
+    }
+    .about{
+        position: absolute;
+    }
+    .about h1{
+        position: absolute;
+        top: -7rem;
+        left: 2rem;
+        width: 350px;
+        font-size: 2.5rem;
+        color: white;
+    }
+    .about .para{
+        position: absolute;
+        left: 2rem;
+        width: 250px;
+        font-size: 1rem;
+        margin-top: 5px;
+    }
+    .about a{
+        text-decoration: none;
+        color: white;
+    }
+    .readmore{
+        position: absolute;
+        top: 10.2rem;
+        left: 2rem;
+        width: 100px;
+        padding: 0.6rem;
+        border-radius: 8px;
+        color: white;
+        font-size: 1rem;
+        background-color: #368A7B;
+        box-shadow: 1px 1px 8px rgba(0, 0, 0,0.4);
+    }
+    .container2{
+        position: absolute;
+        top: 50%;
+        left: 0;
+        width: 100%;
+        height: 60%;
+    }
+    .login-container{
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%,-50%);
+        background-color: white;
+        padding: 1rem;
+        border-radius: 12px;
+        box-shadow: 1px 1px 8px rgba(0, 0, 0,0.4);
+    }
+    
+}
